@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; template</title>
+    <title>Tiranga in AR</title>
     <meta charset="utf-8">
-    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="description" content="Scan, see, celebrate! Your Tiranga, now in AR 🇮🇳
+">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="scene.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="-7.5deg 75.79deg 9.433m" field-of-view="30deg" min-camera-orbit="auto 19deg auto" max-camera-orbit="auto 90deg auto">
+    <model-viewer src="scene.glb" ios-src="model.usdz" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="-7.5deg 75.79deg 9.433m" field-of-view="30deg" min-camera-orbit="auto 19deg auto" max-camera-orbit="auto 90deg auto">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
